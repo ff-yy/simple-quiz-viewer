@@ -1,0 +1,38 @@
+* {
+    font-family: "M PLUS 1p";
+}
+
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+    #prev, #next, #show {
+        width: 100px;
+        height: 50px;
+        margin-left: 20px;
+    }
+    #buttons {
+        text-align: center;
+    }
+    
+    #question ,#comment{
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+	/* 480px以上に適用されるCSS（スマホ以外） */
+    #answer, #comment, #question {
+        width: 900px;
+        margin-left: 100px;
+        font-size: 20px;
+    }
+
+    #show, #prev, #next {
+        width: 100px;
+        height: 50px;
+        margin-left: 100px;
+    }
+
+    #buttons {
+        text-align: center;
+    }
+}
