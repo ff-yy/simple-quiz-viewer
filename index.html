@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Quiz</title>
+	<style>
+		* {
+    font-family: '源ノ角ゴシック Code JP';
+}
+
+
+#answer, #comment, #question {
+    width: 900px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+#show, #prev, #next {
+    width: 100px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+#buttons {
+    text-align: center;
+}
+	</style>
+
+</head>
+<body>
+	<div id="buttons">
+		<button id="prev">前へ</button>
+		<button id="next">次へ</button>
+	</div>
+
+	<h1>問題</h1>
+    <h3 id="num"></h3>
+	<p id="question"></p>
+
+	<h1>正解</h1>
+	<button id="show">表示</button>
+	<p id="answer"></p>
+	<p id="comment"></p>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
